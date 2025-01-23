@@ -1,28 +1,16 @@
-package javaexample2;
-
-abstract class Animal {
-    abstract void sound();
-}
-
-class Dog extends Animal {
-    @Override
-    void sound() {
-        System.out.println("Woof Woof");
-    }
-}
-
-class Cat extends Animal {
-    @Override
-    void sound() {
-        System.out.println("Meow");
-    }
-}
-
+package javaexample;
+class Student {
+	      int id;
+          String n;
 public class main {
-    public static void main(String[] args) {
-        Animal dog = new Dog();
-        Animal cat = new Cat();
-        dog.sound();
-        cat.sound();
-    }
+	
+ public static void main(String args[]) {
+   
+     // creating an object of
+     // Student
+     Student s1 = new Student();
+     System.out.println(s1.id);
+     System.out.println(s1.n);
+ }
+}
 }
